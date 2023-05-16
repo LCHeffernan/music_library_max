@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "migrate": "node scripts/migrate.js",
     "prestart": "node scripts/create-database.js && npm run migrate",
     "start": "nodemon index.js",
     "lint": "eslint .",
-    "migrate": "node scripts/migrate.js",
-    "test": "mocha tests/**/*.js --exit --recursive --timeout 60000 --file ./tests/test-setup.js",
     "pretest": "node scripts/create-database.js test && npm run migrate test",
+    "test": "mocha tests/**/*.js --exit --recursive --timeout 60000 --file ./tests/test-setup.js",
     "posttest": "node scripts/drop-database.js"
   },
   "dependencies": {
