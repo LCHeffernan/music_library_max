@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 const request = require("supertest");
-const app = require("../src/app");
-const db = require("../src/db/index");
+const app = require("../../src/app");
+const db = require("../../src/db/index");
 
 describe("read artists", () => {
   let artists;
