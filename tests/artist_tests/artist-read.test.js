@@ -12,12 +12,12 @@ describe("read artists", () => {
         "rock",
       ]),
       db.query("INSERT INTO Artists (name, genre) VALUES($1, $2) RETURNING *", [
-        "Kylie Minogue",
-        "pop",
+        "Smashing Pumpkins",
+        "rock",
       ]),
       db.query("INSERT INTO Artists (name, genre) VALUES($1, $2) RETURNING *", [
         "Madness",
-        "ska",
+        "ska revival",
       ]),
     ]);
 

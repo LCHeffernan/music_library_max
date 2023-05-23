@@ -1,6 +1,15 @@
 const express = require("express");
-const {} = require("../controllers/album");
+const {
+  getAllAlbums,
+  getAlbumById,
+  updateAlbum,
+} = require("../controllers/album");
 
 const albumRouter = express.Router();
 
-albumRouter.post("/artists/:id/albums");
+albumRouter
+  .get("/", getAllAlbums)
+  .get("/:id", getAlbumById)
+  .put("/:id", updateAlbum);
+
+module.exports = albumRouter;
