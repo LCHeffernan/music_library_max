@@ -1,7 +1,5 @@
 # Music Library
 
-![Image of a record collection](https://images.unsplash.com/photo-1513746347121-4cfd77c7dc37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80)
-
 ## Description
 
 An API that allows users to interact with a database of artists and albums.
@@ -50,3 +48,5 @@ Use pgAdmin4 to view the database.
 ## Credits
 
 I used the Command Shift npx script to set up the basic scaffolding of the project; the Command Shift track and all of the tutors helped me along the way, as well as some of the other students in my cohort.
+
+![Image of a record collection](https://images.unsplash.com/photo-1513746347121-4cfd77c7dc37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80)
