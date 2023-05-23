@@ -1,7 +1,6 @@
 # Music Library
 
-![Image of a record collection]
-(https://unsplash.com/photos/i0LcODk-V1Q)
+![Image of a record collection](https://unsplash.com/photos/i0LcODk-V1Q)
 
 ## Description
 
@@ -17,7 +16,7 @@ To improve my understanding of APIs and how to structure files on a more complex
 - Postgres: used both for the server mentioned above and also to manually access the databases
 - Postman: used for manually testing the API, helped with troubleshooting some errors
 
-## Why that tech?
+## Why this tech?
 
 I used Docker to keep the resources required when building and testing the API to a minimum.
 I chose Postgres and Postman because they both have very user friendly UIs and made it easy to pick up on errors.
@@ -26,15 +25,15 @@ I chose Postgres and Postman because they both have very user friendly UIs and m
 
 - Fork and clone this repository
 - Open the cloned directory and run `npm install`
-- Download and install Docker from this link: [Docker download page] (https://docs.docker.com/get-docker/)
+- Download and install Docker from this link: [Docker download page](https://docs.docker.com/get-docker/)
 - Pull and run a postgres image by running this in your terminal: `docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=password -d postgres`
-- Download and install pgAdmin4 from this link: [pgAdmin4 downloads page] (https://www.pgadmin.org/download/)
+- Download and install pgAdmin4 from this link: [pgAdmin4 downloads page](https://www.pgadmin.org/download/)
 - Run pgAdmin4, click on the `Add New Server` button. Use the following credentials to connect:
   - Hostname/address: localhost
   - User: postgres
   - Password: password
 - Give the server a name
-- Download and install Postman from this link: [Postman download page] (https://www.postman.com/downloads/)
+- Download and install Postman from this link: [Postman download page](https://www.postman.com/downloads/)
 
 ## How to use it
 
