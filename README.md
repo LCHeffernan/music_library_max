@@ -1,6 +1,6 @@
 # Music Library
 
-![Image of a record collection](https://unsplash.com/photos/i0LcODk-V1Q)
+![Image of a record collection](https://images.unsplash.com/photo-1513746347121-4cfd77c7dc37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80)
 
 ## Description
 
@@ -41,7 +41,7 @@ Use any of the routes specified in in files in the routes directory to interact 
 
 - Open postman and click on the `+` sign in the top left
 - Select POST from the drop down list
-- Enter the URL http://localhost:3000/artists
+- Enter the URL `http://localhost:3000/artists`
 - Select the `Body` tab below the URL and enter `{ "name": "Artist Name", "genre": "musical genre"}`
 - Click `Send`
 
