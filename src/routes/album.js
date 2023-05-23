@@ -3,6 +3,7 @@ const {
   getAllAlbums,
   getAlbumById,
   updateAlbum,
+  modifyAlbum,
 } = require("../controllers/album");
 
 const albumRouter = express.Router();
@@ -10,6 +11,7 @@ const albumRouter = express.Router();
 albumRouter
   .get("/", getAllAlbums)
   .get("/:id", getAlbumById)
-  .put("/:id", updateAlbum);
+  .put("/:id", updateAlbum)
+  .patch("/:id", modifyAlbum);
 
 module.exports = albumRouter;
