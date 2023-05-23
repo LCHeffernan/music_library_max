@@ -6,8 +6,8 @@ const {
   updateArtist,
   modifyArtist,
   deleteArtist,
-  createAlbum,
 } = require("../controllers/artist");
+const { createAlbum } = require("../controllers/album");
 
 const artistRouter = express.Router();
 
